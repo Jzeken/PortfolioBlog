@@ -1,13 +1,3 @@
-# Planning our application
-1. Questions
-	-What are we Building?
-	-Who are we building it for?
-	-What features do we need to have?
-2.User Stories
-3.Model our Data
-4.Think through the pages we need in our app
----
-
 ## Questions
 1. We are building a personal site. A place where I can blog, share my work and have people contact me
 2. We are building it for personal use and for the community. To showcase for potential employers.
