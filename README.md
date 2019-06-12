@@ -1,7 +1,7 @@
 ## Questions
-1. We are building a personal site. A place where I can blog, share my work and have people contact me
-2. We are building it for personal use and for the community. To showcase for potential employers.
-3. Features
+1. What are we Building? We are building a personal site. A place where I can blog, share my work and have people contact me
+2. Who are we building it for? We are building it for personal use and for the community. To showcase for potential employers.
+3. What features do we need to have?
 	-Post
 		-Create / Edit / Destroy
 		-Markdown
