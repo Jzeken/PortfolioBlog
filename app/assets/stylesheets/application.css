@@ -13,8 +13,3 @@
  *= require_tree .
  *= require_self
  */
- 
- @import 'normalize';
- @import 'custom';
- @import 'posts_projects';
- @import 'pygments';
