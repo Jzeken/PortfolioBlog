@@ -15,7 +15,7 @@
 	-User (Devise)
 
 ## User Stories
-	-As a user, I want to be able to create post, so that I can share what I am learning on my blog
+	-As a user, I want to be able to create post, so t hat I can share what I am learning on my blog
 	-As a user, I want to be able to edit & destroy posts, so that I can manage my blog.
 	-As a user, I want to be able to write posts in markdown format so that it's easy for me to write posts.
 	-As a user, I want to be able to highlight the various syntax of code blocks that I share on my blog.
@@ -39,3 +39,5 @@
 - Projects#index
 - Projects#show
 - Contact
+
+https://jzekenportfolio.herokuapp.com/
