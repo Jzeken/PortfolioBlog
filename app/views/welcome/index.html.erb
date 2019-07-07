@@ -5,8 +5,8 @@
       <p>I'm a Developer living in Novaliches, Quezon City</p>
       <p>By day I study Web Development focusing on Ruby on Rails, and by night I work as a Back Office Associate.
       </p>
-      <p>You can find me sharing codes on <a href="#"> Github</a>, trolling on <a href="#"> Twitter</a>
-          &amp; randomly scrolling my <a href="#"> Instagram</a>. </p>
+      <p>You can find me sharing codes on <a href="https://github.com/jzeken" target= "_blank"> Github</a>, trolling on <a href="https://twitter.com/jzeken14" target= "_blank"> Twitter</a>
+          &amp; randomly scrolling my <a href="https://www.instagram.com/jzeken14" target= "_blank"> Instagram</a>. </p>
   </div>
   <div class="col-2 homepage_content">
       <h2>Written Stuff's</h2>
@@ -21,11 +21,10 @@
   <div class="col-3 homepage_content">
       <h2>Projects Built</h2>
       <hr>
-      <h3> <a href="#"> Project 1</a></h3>
-      <p class="date">Sunday, June 9th</p>
-      <h3> <a href="#"> Project 2</a></h3>
-      <p class="date">Sunday, June 10th</p>
-      <h3> <a href="#"> Project 3</a></h3>
-      <p class="date">Sunday, June 14th</p>
+
+      <% @projects.each do |project| %>
+        <h3><a href="#"><%= link_to project.title, project %></a></h3>
+        <p class="date"><%= project.created_at.strftime("%A, %b %d") %></p>
+      <% end %>
   </div>
 </div>
